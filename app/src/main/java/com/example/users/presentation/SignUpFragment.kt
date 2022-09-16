@@ -107,24 +107,24 @@ class SignUpFragment : Fragment() {
                     binding.tilUsername.error = getString(R.string.cant_be_empty)
                     return@setOnClickListener
                 }
-                email.isEmpty() -> {
-                    binding.tilEmail.error = getString(R.string.cant_be_empty)
-                    return@setOnClickListener
-                }
                 phone.isEmpty() -> {
                     binding.tilPhone.error = getString(R.string.cant_be_empty)
                     return@setOnClickListener
                 }
-                website.isEmpty() -> {
-                    binding.tilWebsite.error = getString(R.string.cant_be_empty)
+                email.isEmpty() -> {
+                    binding.tilEmail.error = getString(R.string.cant_be_empty)
+                    return@setOnClickListener
+                }
+                address.isEmpty() -> {
+                    binding.tilAddress.error = getString(R.string.cant_be_empty)
                     return@setOnClickListener
                 }
                 company.isEmpty() -> {
                     binding.tilCompany.error = getString(R.string.cant_be_empty)
                     return@setOnClickListener
                 }
-                address.isEmpty() -> {
-                    binding.tilAddress.error = getString(R.string.cant_be_empty)
+                website.isEmpty() -> {
+                    binding.tilWebsite.error = getString(R.string.cant_be_empty)
                     return@setOnClickListener
                 }
                 !ValidationObject.validateEmail(email) -> {
