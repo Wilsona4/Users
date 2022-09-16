@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Users</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="leanne_graham">Leanne Graham</string>
+    <string name="bret">Bret</string>
+    <string name="email">Email</string>
+    <string name="sincere_april_biz">Sincere@april.biz</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_010_692_6593_x09125">010-692-6593 x09125</string>
+    <string name="website">Website</string>
+    <string name="anastasia_net">anastasia.net</string>
+    <string name="company">Company</string>
+    <string name="deckow_crist">Deckow-Crist</string>
+    <string name="address">Address</string>
+    <string name="skiles_walks">Skiles Walks</string>
+    <string name="backdrop_image">Backdrop Image</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="temp_images_dir">temp_images</string>
+    <string name="temp_image">temp_image.jpg</string>
+    <string name="authorities">com.example.users</string>
+    <string name="submit">Submit</string>
+    <string name="add_user">Add User</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="some_fields_are_empty">Some fields are Empty</string>
+    <string name="kindly_take_your_picture">Kindly take your Picture</string>
+    <string name="cant_be_empty">This field can\'t be empty</string>
+</resources>
